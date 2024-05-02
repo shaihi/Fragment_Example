@@ -26,6 +26,11 @@
         app:layout_constraintStart_toEndOf="@+id/fragOneBtn"
         app:layout_constraintTop_toTopOf="parent" />
 
-
+    <fragment
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragOneBtn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
