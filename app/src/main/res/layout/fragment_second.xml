@@ -19,4 +19,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.5" />
 
+    <EditText
+        android:id="@+id/etFragmentTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="text that will be passed to fragment 1"
+        android:textSize="30sp"
+        android:padding="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSecondFragment" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
